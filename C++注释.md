@@ -325,7 +325,7 @@ public:
 };
 ```
 #### 2）继承方式
-![alt text](image.png)
+![alt text](image/image.png)
 ```
 class A {
 	int al;//私有类型，只有在本类中使用。
@@ -463,7 +463,7 @@ void test01() {
  * 关闭文件 ofs.close()
   
 ##### 2.文件打开方式
-![alt text](image-2.png)
+![alt text](image/image-2.png)
 
 #### 3）读文件
 ##### 1. 步骤
@@ -499,7 +499,7 @@ template<typename T>
 * 模板必须确定出T的类型，才可以使用。
 
 ### 2）普通函数模板和函数模板的区别
-![alt text](image-4.png)
+![alt text](image/image-4.png)
 
 ### 3）普通函数和函数模板的调用规则
 1. 如果函数模板和普通函数都可以实现，优先调用普通函数
@@ -510,7 +510,7 @@ template<typename T>
 ### 4）函数模板的局限性
 传入的是两个数组或自定义类型，无法正常运行。
 因此提供了函数模板的重载来解决这个问题。
-![alt text](image-5.png)
+![alt text](image/image-5.png)
 ## 4.类模板
 ### 1）语法
 ```
@@ -542,7 +542,7 @@ template<class NameType, class AgeType=int>
 
 
 ### 6）类模板成员函数类外实现
-![alt text](image-7.png)
+![alt text](image/image-7.png)
 
 
 ### 7）类模板分文件写
@@ -583,7 +583,7 @@ private:
 ```
 ## 5.STL
 ### 1）六大组件
-![alt text](image-8.png)
+![alt text](image/image-8.png)
 
 ### 2）vector存放内置数据类型
 容器：vector<br>
@@ -608,10 +608,10 @@ private:
 
 ### 3） string容器
 #### 1. string构造函数
-![alt text](image-9.png)
+![alt text](image/image-9.png)
 #### 2. string赋值操作
-![alt text](image-10.png)
+![alt text](image/image-10.png)
 #### 3.string字符串拼接
-![alt text](image-11.png)
+![alt text](image/image-11.png)
 #### 4.string查找和替换
-![alt text](image-12.png)
+![alt text](image/image-12.png)
